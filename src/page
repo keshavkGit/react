@@ -1,0 +1,142 @@
+import React from 'react'
+import {Link} from "react-router-dom"
+
+function Resume() {
+    return (
+        <>
+            <section id="header" className=" x-scroll-disabled ">
+                <h1 className="resume"><Link to="React.pdf" target="-blank" download> RESUME</Link></h1>
+
+                <div className="col-10  mx-auto">
+
+                    <div className="accordion" id="accordionPanelsStayOpenExample">
+                        <div className="accordion-item">
+                            <h2 className="accordion-header accordion-bg" id="panelsStayOpen-headingOne">
+                                <button className="accordion-button" type="button" data-bs-toggle="collapse" 
+                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" 
+                                aria-controls="panelsStayOpen-collapseOne">
+                                    Career Objectives:
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" className="accordion-collapse collapse show" 
+                            aria-labelledby="panelsStayOpen-headingOne">
+                                <div className="accordion-body">
+                            
+                                    Looking for an organization which will help me to explore my talent,
+                                     hone my skills and utilize them in the best possible way for the attainment of their goals. </div>
+                            </div>
+                        </div>
+                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="panelsStayOpen-headingTwo">
+                                <button className="accordion-button collapsed" type="button" 
+                                data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" 
+                                aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                   Key Skills
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" className="accordion-collapse collapse" 
+                            aria-labelledby="panelsStayOpen-headingTwo">
+                                <div className="accordion-body">
+                                    <strong>● UI Designing  </strong> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                                     <strong>● Coding </strong> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                                     <strong>● Debugging </strong> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                                     <strong>● Web Development </strong> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                                    </div>
+                            </div>
+                        </div>
+                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="panelsStayOpen-headingThree">
+                                <button className="accordion-button collapsed" type="button" 
+                                data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                   Technical Skills
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" className="accordion-collapse collapse" 
+                            aria-labelledby="panelsStayOpen-headingThree">
+                                <div className="accordion-body">
+                                    <strong> Programming Languages:</strong> &nbsp;&nbsp;
+                                          C++,&nbsp;&nbsp; HTML,&nbsp;&nbsp; CSS,&nbsp;&nbsp; JavaScript  <br/>
+                                    <strong> Frameworks & Libraries:</strong> &nbsp;&nbsp;
+                                          React,&nbsp;&nbsp; Bootstrap,&nbsp;&nbsp; Redux   <br/>
+                                     <strong> Database:</strong> &nbsp;&nbsp;
+                                          Mysql                    <br/>
+                                    <strong> Miscellaneous:</strong> &nbsp;&nbsp;
+                                          MS-Office,&nbsp;&nbsp; Git,&nbsp;&nbsp; NPM
+                                        </div>
+                                    </div>
+                                    </div>
+                                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="panelsStayOpen-headingTwo">
+                                <button className="accordion-button collapsed" type="button" 
+                                data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" 
+                                aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                   Trainings and Certification
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" className="accordion-collapse collapse" 
+                            aria-labelledby="panelsStayOpen-headingTwo">
+                                <div className="accordion-body">
+                                    <strong>●  Web Development : </strong>&nbsp; &nbsp;&nbsp; 
+                                    Training from Internshala. (June ’15 – July ’26) <br/> <br/>
+                                     <strong>● C++ :</strong>&nbsp; &nbsp;&nbsp; 
+                                     Training from Numeric Infosystem Pvt. Ltd. (Feb, 2016-Apr, 2016)
+                                  
+                                    
+                               
+                               </div>
+                            </div>
+                        </div>
+                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="panelsStayOpen-headingTwo">
+                                <button className="accordion-button collapsed" type="button" 
+                                data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" 
+                                aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                  Projects
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" className="accordion-collapse collapse" 
+                            aria-labelledby="panelsStayOpen-headingTwo">
+                                <div className="accordion-body">
+                                    <strong>●  Web Development : </strong>&nbsp; &nbsp;&nbsp; 
+                                    Training from Internshala. (June ’15 – July ’26) <br/>
+                                     <strong>● C++ :</strong>&nbsp; &nbsp;&nbsp; 
+                                     Training from Numeric Infosystem Pvt. Ltd. (Feb, 2016-Apr, 2016)
+                                  
+                                    
+                               
+                               </div>
+                            </div>
+                        </div>
+                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="panelsStayOpen-headingTwo">
+                                <button className="accordion-button collapsed" type="button" 
+                                data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" 
+                                aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                  Co-Curricular
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" className="accordion-collapse collapse" 
+                            aria-labelledby="panelsStayOpen-headingTwo">
+                                <div className="accordion-body">
+                               ● Awarded ‘Cluster’ Level certificate in chemistry exhibition through NVS, Bhopal Region in the year 2010. <br/> <br/>
+                               ● Got Scholarship in Madhya Pradesh state’s <strong>Mission excellence</strong> Program in 2009.  <br/> <br/>
+                               ● Participated as a student in the interactive visit to Scientific and Research Institutions of Bengaluru
+                                under the“<strong> Vigyan Manthan Yatra –Mission Excellence Programme </strong>” .  <br/><br/>
+                               ● Participated in Green Olympiad 2010, supported by the Ministry of Environment and Forests, Govt. of India.
+                                  
+                                    
+                               
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="text-center">
+                <Link to="React.pdf"  target="_blank" download> (Click to download RESUME)</Link>
+                </div>
+
+            </section>
+
+        </>
+    )
+} export default Resume;
